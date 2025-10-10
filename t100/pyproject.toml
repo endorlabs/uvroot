@@ -1,0 +1,15 @@
+[project]
+name = "t100"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7.17"
+dependencies = [
+    "pandas>=1.3.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "pkg1",
+    "pkg2",
+]

@@ -1,0 +1,16 @@
+[project]
+name = "uvroot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7.17"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "t1",
+    "t2",
+    "t100/pkg1"	
+]

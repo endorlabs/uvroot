@@ -3,7 +3,7 @@ name = "pkg2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.7.17"
+requires-python = ">=3.8"
 dependencies = [
     "flask>=2.2.5",
 ]

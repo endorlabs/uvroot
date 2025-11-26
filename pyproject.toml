@@ -3,8 +3,9 @@ name = "uvroot"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.7.17"
+requires-python = ">=3.8"
 dependencies = [
+    "numpy>=1.21.6",
     "requests>=2.31.0",
 ]
 
@@ -12,5 +13,8 @@ dependencies = [
 members = [
     "t1",
     "t2",
-    "t100/pkg1"	
+    "t100/pkg1",
+    "../memberx",
+    "membery",
+    "memberz"	
 ]

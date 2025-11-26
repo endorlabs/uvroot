@@ -1,0 +1,24 @@
+{
+  "analyses": [
+    {
+      "text": "hello world from membery package",
+      "words": 5,
+      "chars": 32
+    },
+    {
+      "text": "python is a great programming language",
+      "words": 6,
+      "chars": 38
+    },
+    {
+      "text": "testing callgraph functionality with various functions",
+      "words": 6,
+      "chars": 54
+    }
+  ],
+  "summary": {
+    "total_words": 17,
+    "total_chars": 124,
+    "avg_words": 5.666666666666667
+  }
+}
